@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/jpeg" href="Logo.jpeg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>STEM, Robotics & Student Projects Gallery | Violet Spark</title>
+  <meta name="description" content="View Violet Spark photos from Robotics and STEM workshops, school programs, student projects and innovation events in Lucknow and across India." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="canonical" href="https://www.violetspark.com/gallery.html" />
+  <meta property="og:title" content="STEM, Robotics & Student Projects Gallery | Violet Spark" />
+  <meta property="og:description" content="Photos from Violet Spark Robotics workshops, student projects, school programs and technology events." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.violetspark.com/gallery.html" />
+  <meta property="og:image" content="https://www.violetspark.com/g3.jpeg" />
+  <meta property="og:image:alt" content="Students participating in a Violet Spark STEM workshop" />
+  <meta property="og:locale" content="en_IN" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="STEM, Robotics & Student Projects Gallery | Violet Spark" />
+  <meta name="twitter:description" content="Explore photos of Violet Spark Robotics workshops, student projects and school technology programs." />
+  <meta name="twitter:image" content="https://www.violetspark.com/g3.jpeg" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .thumb { height: 220px; object-fit: cover; width: 100%; }
+    .modal-img { max-width: 90vw; max-height: 80vh; }
+  </style>
+</head>
+<body class="min-h-screen bg-white text-slate-900">
+  <header class="sticky top-0 z-40 border-b border-violet-700/20 bg-gradient-to-r from-violet-950 via-violet-900 to-slate-950/95 text-white backdrop-blur-lg">
+    <div class="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-y-3 px-6 py-4">
+      <a href="index.html" class="flex items-center gap-3 text-white">
+        <div class="h-12 w-12 overflow-hidden rounded-xl border border-white/20 bg-white/10 shadow-sm">
+          <img src="Logo.jpeg" alt="Violet Spark Technologies Logo" class="h-full w-full object-cover">
+        </div>
+        <div>
+          <p class="text-lg font-bold">Violet Spark</p>
+          <p class="text-[11px] uppercase tracking-widest text-slate-300">Technologies Pvt. Ltd.</p>
+        </div>
+      </a>
+      <nav class="order-3 flex basis-full flex-wrap items-center gap-x-4 gap-y-2 border-t border-white/10 pt-3 text-xs font-medium text-slate-200 xl:order-2 xl:basis-auto xl:gap-x-5 xl:border-0 xl:pt-0 xl:text-sm">
+        <a href="index.html" class="navbar-link">Home</a>
+        <a href="about-us.html" class="navbar-link">About Us</a>
+        <a href="services.html" class="navbar-link">Services</a>
+        <a href="software-development.html" class="navbar-link">Software Development</a>
+        <a href="gallery.html" class="navbar-link font-bold" aria-current="page">VST Gallery</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="py-12 px-6 max-w-7xl mx-auto">
+    <div class="mb-8 text-center">
+      <h1 class="text-4xl font-extrabold">VST Gallery</h1>
+      <p class="mt-2 text-slate-600">A curated set of compressed thumbnails. Click any item to view full media.</p>
+    </div>
+
+    <section id="featured-carousel" class="mb-10" aria-label="Featured gallery photos">
+      <div class="mb-4 flex items-center justify-between gap-4">
+        <h3 class="text-xl font-bold text-slate-900">Gallery Highlights</h3>
+        <div class="flex gap-2">
+          <button id="featured-prev" type="button" aria-label="Previous featured photos" aria-controls="featured-track" class="rounded-full border border-slate-300 px-4 py-2 text-slate-700 transition hover:border-violet-600 hover:bg-violet-50">Previous</button>
+          <button id="featured-next" type="button" aria-label="Next featured photos" aria-controls="featured-track" class="rounded-full border border-slate-300 px-4 py-2 text-slate-700 transition hover:border-violet-600 hover:bg-violet-50">Next</button>
+        </div>
+      </div>
+      <div id="featured-viewport" class="overflow-hidden" aria-label="Featured photos carousel">
+        <div id="featured-track" class="flex gap-4 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-3">
+          <figure class="w-[85%] shrink-0 snap-start sm:w-[48%] lg:w-[32%]">
+            <img src="g3.jpeg" alt="Violet Spark gallery highlight 1" class="thumb rounded-xl shadow-lg" loading="lazy">
+          </figure>
+          <figure class="w-[85%] shrink-0 snap-start sm:w-[48%] lg:w-[32%]">
+            <img src="g11.jpeg" alt="Violet Spark gallery highlight 2" class="thumb rounded-xl shadow-lg" loading="lazy">
+          </figure>
+          <figure class="w-[85%] shrink-0 snap-start sm:w-[48%] lg:w-[32%]">
+            <img src="g15.jpeg" alt="Violet Spark gallery highlight 3" class="thumb rounded-xl shadow-lg" loading="lazy">
+          </figure>
+          <figure class="w-[85%] shrink-0 snap-start sm:w-[48%] lg:w-[32%]">
+            <img src="g18.jpeg" alt="Violet Spark gallery highlight 4" class="thumb rounded-xl shadow-lg" loading="lazy">
+          </figure>
+          <figure class="w-[85%] shrink-0 snap-start sm:w-[48%] lg:w-[32%]">
+            <img src="g21.jpeg" alt="Violet Spark gallery highlight 5" class="thumb rounded-xl shadow-lg" loading="lazy">
+          </figure>
+          <figure class="w-[85%] shrink-0 snap-start sm:w-[48%] lg:w-[32%]">
+            <img src="g23.jpeg" alt="Violet Spark gallery highlight 6" class="thumb rounded-xl shadow-lg" loading="lazy">
+          </figure>
+          <figure class="w-[85%] shrink-0 snap-start sm:w-[48%] lg:w-[32%]">
+            <img src="30.jpeg" alt="Violet Spark gallery highlight 7" class="thumb rounded-xl shadow-lg" loading="lazy">
+          </figure>
+          <figure class="w-[85%] shrink-0 snap-start sm:w-[48%] lg:w-[32%]">
+            <img src="img-3.jpeg" alt="Violet Spark gallery highlight 8" class="thumb rounded-xl shadow-lg" loading="lazy">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery grid -->
+    <section id="gallery" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+      <!-- Gallery image files are stored alongside this page. -->
+      <img src="g1.jpeg" data-index="0" alt="Gallery 1" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="g2.jpeg" data-index="1" alt="Gallery 2" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="g4.jpeg" data-index="2" alt="Gallery 3" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="2.jpeg" data-index="3" alt="Gallery 4" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="g6.jpeg" data-index="4" alt="Gallery 5" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="g7.jpeg" data-index="5" alt="Gallery 6" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="1.jpeg" data-index="6" alt="Gallery 7" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="g5.jpeg" data-index="7" alt="Gallery 8" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="3.jpeg" data-index="8" alt="Gallery 9" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="g18.jpeg" data-index="9" alt="Gallery 10" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="4.jpeg" data-index="10" alt="Gallery 11" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="g12.jpeg" data-index="11" alt="Gallery 12" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="5.jpeg" data-index="12" alt="Gallery 13" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="g13.jpeg" data-index="13" alt="Gallery 14" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="6.jpeg" data-index="14" alt="Gallery 15" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="g14.jpeg" data-index="15" alt="Gallery 16" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="7.jpeg" data-index="16" alt="Gallery 17" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="g15.jpeg" data-index="17" alt="Gallery 18" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="9.jpeg" data-index="18" alt="Gallery 19" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="g24.jpeg" data-index="19" alt="Gallery 20" class="thumb rounded-lg cursor-pointer" loading="lazy">
+
+       <img src="16.jpeg" data-index="12" alt="Gallery 13" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="g19.jpeg" data-index="13" alt="Gallery 14" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="10.jpeg" data-index="14" alt="Gallery 15" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="g10.jpeg" data-index="15" alt="Gallery 16" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="20.jpeg" data-index="16" alt="Gallery 17" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="g21.jpeg" data-index="17" alt="Gallery 18" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="22.jpeg" data-index="18" alt="Gallery 19" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="g23.jpeg" data-index="19" alt="Gallery 20" class="thumb rounded-lg cursor-pointer" loading="lazy">
+
+       <img src="24.jpeg" data-index="12" alt="Gallery 13" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="g1.jpeg" data-index="13" alt="Gallery 14" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="30.jpeg" data-index="14" alt="Gallery 15" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="g24.jpeg" data-index="15" alt="Gallery 16" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="31.jpeg" data-index="16" alt="Gallery 17" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="g14.jpeg" data-index="17" alt="Gallery 18" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="37.jpeg" data-index="18" alt="Gallery 19" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="g23.jpeg" data-index="19" alt="Gallery 20" class="thumb rounded-lg cursor-pointer" loading="lazy">
+
+      <img src="fev.jpeg" data-index="12" alt="Gallery 13" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="img-3.jpeg" data-index="13" alt="Gallery 14" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="g15.jpeg" data-index="14" alt="Gallery 15" class="thumb rounded-lg cursor-pointer" loading="lazy">
+      <img src="32.jpeg" data-index="15" alt="Gallery 16" class="thumb rounded-lg cursor-pointer" loading="lazy">
+    </section>
+  </main>
+
+  <footer id="contact" class="border-t border-slate-200 bg-slate-900 py-8 text-slate-300">
+    <div class="mx-auto flex max-w-7xl flex-col gap-4 px-6 sm:flex-row sm:items-center sm:justify-between">
+      <p class="text-sm">© 2026 Violet Spark Technologies Pvt. Ltd. All Rights Reserved.</p>
+      <div class="flex flex-wrap gap-5 text-sm">
+        <a href="terms-and-conditions.html" class="transition hover:text-white">Terms & Conditions</a>
+        <a href="index.html" class="transition hover:text-white">Back to Home</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox modal -->
+  <div id="lightbox" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/70 p-6">
+    <button id="lb-close" class="absolute top-6 right-6 text-white text-2xl">&times;</button>
+    <button id="lb-prev" class="absolute left-6 text-white text-3xl">&#10094;</button>
+    <img id="lb-image" src="" alt="" class="modal-img rounded-lg shadow-2xl">
+    <button id="lb-next" class="absolute right-6 text-white text-3xl">&#10095;</button>
+  </div>
+
+  <script>
+    // Gather gallery sources from grid images
+    const thumbs = Array.from(document.querySelectorAll('#gallery img'));
+    const sources = thumbs.map(img => img.getAttribute('src'));
+    const lightbox = document.getElementById('lightbox');
+    const lbImage = document.getElementById('lb-image');
+    let current = 0;
+
+    function openLightbox(index) {
+      current = index;
+      lbImage.src = sources[current];
+      lightbox.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeLightbox() {
+      lightbox.classList.add('hidden');
+      lbImage.src = '';
+      document.body.style.overflow = '';
+    }
+    function prev() { current = (current - 1 + sources.length) % sources.length; lbImage.src = sources[current]; }
+    function next() { current = (current + 1) % sources.length; lbImage.src = sources[current]; }
+
+    thumbs.forEach((t, i) => t.addEventListener('click', () => openLightbox(i)));
+    document.getElementById('lb-close').addEventListener('click', closeLightbox);
+    document.getElementById('lb-prev').addEventListener('click', prev);
+    document.getElementById('lb-next').addEventListener('click', next);
+    window.addEventListener('keydown', (e) => {
+      if (lightbox.classList.contains('hidden')) return;
+      if (e.key === 'ArrowLeft') prev();
+      if (e.key === 'ArrowRight') next();
+      if (e.key === 'Escape') closeLightbox();
+    });
+
+    // Click outside image closes
+    lightbox.addEventListener('click', (e) => { if (e.target === lightbox) closeLightbox(); });
+
+    const featuredTrack = document.getElementById('featured-track');
+    const featuredSlides = Array.from(featuredTrack.children);
+    const featuredCarousel = document.getElementById('featured-carousel');
+    let featuredIndex = 0;
+    let featuredTimer;
+
+    function showFeatured(index) {
+      const maxScroll = featuredTrack.scrollWidth - featuredTrack.clientWidth;
+      const maxIndex = featuredSlides.reduce((lastVisibleIndex, slide, slideIndex) => {
+        const slideOffset = slide.offsetLeft - featuredTrack.offsetLeft;
+        return slideOffset <= maxScroll + 1 ? slideIndex : lastVisibleIndex;
+      }, 0);
+      const startCount = maxIndex + 1;
+      featuredIndex = (index % startCount + startCount) % startCount;
+      const slideOffset = featuredSlides[featuredIndex].offsetLeft - featuredTrack.offsetLeft;
+      const targetOffset = featuredIndex === maxIndex ? maxScroll : slideOffset;
+      featuredTrack.scrollTo({ left: targetOffset, behavior: 'smooth' });
+    }
+
+    function startFeaturedAutoplay() {
+      window.clearInterval(featuredTimer);
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      featuredTimer = window.setInterval(() => showFeatured(featuredIndex + 1), 4500);
+    }
+
+    document.getElementById('featured-prev').addEventListener('click', () => {
+      showFeatured(featuredIndex - 1);
+      startFeaturedAutoplay();
+    });
+    document.getElementById('featured-next').addEventListener('click', () => {
+      showFeatured(featuredIndex + 1);
+      startFeaturedAutoplay();
+    });
+    featuredCarousel.addEventListener('mouseenter', () => window.clearInterval(featuredTimer));
+    featuredCarousel.addEventListener('mouseleave', startFeaturedAutoplay);
+    featuredCarousel.addEventListener('focusin', () => window.clearInterval(featuredTimer));
+    featuredCarousel.addEventListener('focusout', startFeaturedAutoplay);
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden) window.clearInterval(featuredTimer);
+      else startFeaturedAutoplay();
+    });
+    startFeaturedAutoplay();
+  </script>
+</body>
+</html>
